@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ML" Version="1.1.0-preview-27626-0" />
+    <PackageReference Include="Microsoft.ML.ImageAnalytics" Version="1.1.0-preview-27626-0" />
+    <PackageReference Include="Microsoft.ML.TensorFlow" Version="0.13.0-preview-27626-0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="tensorflow_inception_graph.pb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
