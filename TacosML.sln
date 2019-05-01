@@ -3,18 +3,34 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.202
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trainer", "Trainer\Trainer.csproj", "{7D757F70-6E05-4301-A3EE-F9EC9C391B43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trainer", "Trainer\Trainer.csproj", "{7D757F70-6E05-4301-A3EE-F9EC9C391B43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VeryCoolProject", "VeryCoolProject\VeryCoolProject.csproj", "{D603FB7D-4314-4934-962E-01181695CED8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
 		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{7D757F70-6E05-4301-A3EE-F9EC9C391B43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7D757F70-6E05-4301-A3EE-F9EC9C391B43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D757F70-6E05-4301-A3EE-F9EC9C391B43}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7D757F70-6E05-4301-A3EE-F9EC9C391B43}.Debug|x64.Build.0 = Debug|Any CPU
 		{7D757F70-6E05-4301-A3EE-F9EC9C391B43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D757F70-6E05-4301-A3EE-F9EC9C391B43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D757F70-6E05-4301-A3EE-F9EC9C391B43}.Release|x64.ActiveCfg = Release|Any CPU
+		{7D757F70-6E05-4301-A3EE-F9EC9C391B43}.Release|x64.Build.0 = Release|Any CPU
+		{D603FB7D-4314-4934-962E-01181695CED8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D603FB7D-4314-4934-962E-01181695CED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D603FB7D-4314-4934-962E-01181695CED8}.Debug|x64.ActiveCfg = Debug|x64
+		{D603FB7D-4314-4934-962E-01181695CED8}.Debug|x64.Build.0 = Debug|x64
+		{D603FB7D-4314-4934-962E-01181695CED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D603FB7D-4314-4934-962E-01181695CED8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D603FB7D-4314-4934-962E-01181695CED8}.Release|x64.ActiveCfg = Release|x64
+		{D603FB7D-4314-4934-962E-01181695CED8}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
