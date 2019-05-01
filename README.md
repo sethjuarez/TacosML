@@ -24,7 +24,7 @@ burrito
 ```
 python bbid.py -f tacos.txt -o data --filters +filterui:license-L2_L3_L4+filterui:imagesize-large
 ```
-This will basically download images that conform to a bing query for each line in the texy file. ([test it out for tacos](https://www.bing.com/images/search?&q=tacos&qft=+filterui:license-L2_L3_L4+filterui:imagesize-large)). The filters download data that is licensed appropriately as well.
+This will basically download images that conform to a bing query for each line in the text file. ([test it out for tacos](https://www.bing.com/images/search?&q=tacos&qft=+filterui:license-L2_L3_L4+filterui:imagesize-large)). The filters download data that is licensed appropriately as well.
 
 4. Clean the data! Remove any images that will not work for this particular task.
 5. Seperate the data into a `train` and `val` set. The `train` set is for training the Machine Learning model. The `val` set is used as a validation set to make sure the model is working properly. It is held out _on purpose_ so we are not cheating! My folder structure:
@@ -41,14 +41,14 @@ data
 │           another_taco21.jpg
 │           ...
 └───val
-│   └───burrito
-│   |       burrito_other1.jpg
-│   |       another_burrito272.jpg
-│   |       ...
-│   └───tacos
-│           taco_other1.jpg
-│           another_taco343.jpg
-│           ...
+    └───burrito
+    |       burrito_other1.jpg
+    |       another_burrito272.jpg
+    |       ...
+    └───tacos
+            taco_other1.jpg
+            another_taco343.jpg
+            ...
 ```
 This folder (as currently coded) lives in the same folder as the solution file!
 
