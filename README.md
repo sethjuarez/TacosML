@@ -1,12 +1,5 @@
 # The Power of Machine Learning meets the Power of Wonderful Food
-Some instructions!
-
-## NuGet Packages
-The current version uses a special package feed to get ML.NET (this will change as soon as the new version is released).
-
-![NuGet Package Sources](nugetsource.png "NuGet Package Sources")
-
-The MyGet source url is `https://dotnet.myget.org/F/dotnet-core/api/v3/index.json`.
+Since this repo does not contain everything needed to run the project I thought I would add some instructions on how to get everything working!
 
 ## Inception Model
 You will need to download the Inception model from [here](https://storage.googleapis.com/download.tensorflow.org/models/inception5h.zip) in order to make the transfer learning part work. The file you need is called `tensorflow_inception_graph.pb`. Drop that file into the `Trainer` console app and make sure to `Copy to Output Directory`.

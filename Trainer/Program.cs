@@ -22,9 +22,11 @@ namespace Trainer
             
 
             var start = DateTime.Now;
+            // TRAINING TIME
             Train(trainFolder, modelLocation);
             Console.WriteLine($"Took to train {(DateTime.Now - start).TotalSeconds.ToString()}s");
             Console.WriteLine($"Saved model to \"{modelLocation}\"");
+
 
             Validation(valFolder, modelLocation);
         }
