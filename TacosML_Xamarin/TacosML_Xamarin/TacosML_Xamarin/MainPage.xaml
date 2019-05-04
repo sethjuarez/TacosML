@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TacosML_Xamarin"
+             x:Class="TacosML_Xamarin.MainPage">
+
+    <StackLayout>
+        <Button x:Name="Button1"
+                Text="Load Picture"
+                Clicked="Button1_ClickedAsync"
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="CenterAndExpand"/>
+        <Label x:Name="Label1"
+               Text="label1"
+               FontSize="Medium"
+               HorizontalOptions="CenterAndExpand"
+               VerticalOptions="StartAndExpand"/>
+    </StackLayout>
+
+</ContentPage>
